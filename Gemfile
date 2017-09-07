@@ -16,6 +16,8 @@ gem 'pg' ,group: :production
 # Use Puma as the app server
 #rails 12 factor
 gem 'rails_12factor',group: :prodcution
+#stripe
+gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 #bootstrap
